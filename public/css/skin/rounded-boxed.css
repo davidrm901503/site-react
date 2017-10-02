@@ -1,0 +1,77 @@
+/*.menurc-menu > li{*/
+    /*padding: 18px 0;*/
+/*}*/
+/*.menurc-menu > li > a{*/
+    /*padding: 8px 16px;*/
+    /*border-radius: 30px;*/
+/*}*/
+
+/*.menurc-menu > li.active > a,*/
+/*.menurc-menu > li:hover > a{*/
+    /*background: #333;*/
+    /*color: #fff;*/
+/*}*/
+
+/*.menurc-menu ul.dropdown{*/
+    /*top: 71px;*/
+/*}*/
+/*.menurc-menu ul.dropdown li ul.dropdown{*/
+    /*top: 0;*/
+/*}*/
+
+/*.menurc .menurc-menu ul.dropdown li:hover > a{*/
+    /*background: #333;*/
+    /*color: #fff;*/
+/*}*/
+
+/*.menurc-menu > li > .megamenu{*/
+    /*top: 71px;*/
+/*}*/
+
+
+/* Colors */
+/* blue */
+.menurc.blue .menurc-menu > li.active > a,
+.menurc.blue .menurc-menu > li:hover > a,
+.menurc.blue .menurc-menu ul.dropdown li:hover > a{
+    background: #5D9CEC;
+    color: #fff;
+}
+
+.menurc.blue .megamenu ul li.active > a,
+.menurc.blue .megamenu ul li:hover > a
+{
+    background: #5D9CEC;
+    color: #fff;
+}
+
+/*.megamenu ul li:hover > a {   */
+    /*color: #333;*/
+/*}*/
+
+
+/* green */
+.menurc.green .menurc-menu > li > a.active,
+.menurc.green .menurc-menu > li:hover > a,
+.menurc.green .menurc-menu ul.dropdown li:hover > a{
+    background: #48CFAD;
+    color: #fff;
+}
+
+.menurc.green .megamenu ul li > a.active,
+.menurc.green .megamenu ul li:hover > a
+{
+    background: #48CFAD;
+    color: #fff;
+}
+
+@media (max-width: 768px){
+
+    .menurc-responsive .menurc-menu > li{
+        padding: 0;
+    }
+    .menurc-responsive .menurc-menu > li > a{
+        padding: 12px 20px !important;
+        border-radius: 0;
+    }
+}
